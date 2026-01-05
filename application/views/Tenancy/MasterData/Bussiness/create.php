@@ -1,0 +1,133 @@
+
+<?php
+    error_reporting(E_ALL);
+?>
+
+<style type="text/css">
+	.marginatas5{
+		margin-top: 5px;
+	}
+</style>
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1><?=($judul) ? $judul : 'Header not set'  ?></h1>
+        <ol class="breadcrumb">
+
+        </ol>
+    </section>
+
+    <section class="content">
+        <?=($this->session->flashdata('message')) ? $this->session->flashdata('message') : '' ?>
+
+        <form method="post" action="<?= site_url('Tenancy/MasterData/Bussiness/store') ?>">
+            <div class="panel">
+                <div class="panel-body">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="code" class="col-sm-3 control-label text-capitalize">code</label>
+
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="code" name="code" placeholder="Code" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="name" class="col-sm-3 control-label text-capitalize">company name</label>
+
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Company Name" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="telp" class="col-sm-3 control-label text-capitalize">telp</label>
+
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="telp" name="telp" placeholder="Phone Number" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-3 control-label text-capitalize">email</label>
+
+                                            <div class="col-sm-9">
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="address" class="col-sm-3 control-label text-capitalize">address</label>
+
+                                            <div class="col-sm-9">
+                                                <textarea name="address" id="address" name="address" class="form-control" rows="3" placeholder="Address"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="note" class="col-sm-3 control-label text-capitalize">note</label>
+
+                                            <div class="col-sm-9">
+                                                <textarea id="note" name="note" class="form-control" rows="3" placeholder="Note"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-3 col-sm-9">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="is_active" name="is_active" checked> Is Active
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary pull-right">
+                            <i class="fa fa-save"></i><span style="margin-left: 5px;">Save</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>
+
+
+

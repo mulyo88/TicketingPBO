@@ -1,0 +1,49 @@
+//28 Maret 2022
+// untuk Ceklist Document di data Kontrak 
+
+--DROP Table CeklistDok
+
+create Table CeklistDoc (
+id bigint identity,
+JobNo nvarchar(15),
+CeklistLapangan text,
+CeklistPC text,
+UserEntry Nvarchar(15),
+TimeEntry date
+)
+
+// ALTER TABLE PdHdr ADD  LedgerNo BigInt identity
+
+// progress 
+// alter table progress add LedgerNo bigint identity
+
+
+//table kodtl sementara
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[KoDtl_sementara](
+	[NoKO] [nvarchar](15) NOT NULL,
+	[NoUrut] [int] NULL,
+	[Alokasi] [nvarchar](1) NULL,
+	[KdRAP] [nvarchar](10) NULL,
+	[Uraian] [nvarchar](255) NULL,
+	[Vol] [decimal](10, 3) NULL,
+	[Uom] [nvarchar](15) NULL,
+	[HrgSatuan] [money] NULL,
+	[UserEntry] [nvarchar](30) NULL,
+	[TimeEntry] [datetime] NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[KoDtl_sementara] ADD  CONSTRAINT [DF__KoDtl_sementara__Vol__308412F8]  DEFAULT ((0)) FOR [Vol]
+GO
+ALTER TABLE [dbo].[KoDtl_sementara] ADD  CONSTRAINT [DF__KoDtl_sementara__HrgSatuan__31783731]  DEFAULT ((0)) FOR [HrgSatuan]
+GO
+
+
+// KoHdrH 
+// alter table KoHdrH add LedgerNo bigint identity
+
+//tambah "AlasanAddendum" ke KoHdr
+ALTER TABLE KoHdr add AlasanAddendum nvarchar(100)

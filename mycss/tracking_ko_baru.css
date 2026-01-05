@@ -1,0 +1,56 @@
+/*body{
+	font-size: 10px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+*/
+#tbl_atas{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+	
+
+}
+
+#tbl_atas_lainnya{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+	
+
+}
+/*
+#rekap_tbl tr th{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}
+#rekap_tbl tr td{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}*/
+
+#tbl_tracking{
+	/*font-size: 10px;*/
+	border-collapse: collapse;
+	font-size: 8px !important;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	border-bottom: 1px solid;
+}
+
+#atur_th{
+	font-size: 8px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+#atur_td{
+	font-size: 8px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}

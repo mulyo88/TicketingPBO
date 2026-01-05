@@ -1,0 +1,74 @@
+.tbl_inv{
+	font-size: 10px;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.judul_atas{
+	font-size: 12px !important;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.atur_td_detail{
+	font-size: 10px !important;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.kanan{
+	text-align: right;
+}
+
+.aturpading{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.paddingkiri{
+	padding-left: 10px !important;
+}
+
+.border_bawah{
+	border-bottom: 1px solid black;
+	font-size: 10px;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+
+.pengaturan_tbl th{
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+}
+
+
+.pengaturan_tbl td{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.huruf_set{
+	font-size: 10px;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+
+
+	/*
+.tbl_saya{
+	font-size: 10px;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+}
+.tbl_saya tr th{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid black;
+}
+.tbl_saya tr td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}*/
+
+
+

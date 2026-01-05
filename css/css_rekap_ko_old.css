@@ -1,0 +1,97 @@
+/*table{
+	font-size: 12px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+*/
+.atur_huruf_12{
+	font-size: 8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+.atur_huruf{
+	font-size: 8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+
+}
+
+.huruf_td{
+	font-size: 8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	padding-right:3px;
+	/*border-right:1px solid;*/
+}
+
+#table_detail td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 3px;
+	padding-right: 3px;
+	/* vertical-align: top; */
+}
+#table_detail th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* white-space: nowrap; */
+}
+#table_detail {
+	border-collapse: collapse;
+	/*font-size: 8px;*/
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+
+.atur {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.atur_border {
+	border-bottom: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.atur_kaki {
+	width: 60%;
+}
+
+input[type="text"] {
+	padding: 20px 10px;
+	line-height: 28px;
+}
+
+#tableKaki{
+	font-size: 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+	border-collapse: collapse;
+	white-space: nowrap;
+}
+
+
+
+.tbl_rap{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	/*white-space: nowrap;*/
+}
+
+.atur_th{
+	font-size: 8px !important;
+	font-weight: bold;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+/*	.tbl_rap thead th{
+		
+		font-size: 12px !important;
+		font-weight: bold;
+	}*/
+
+	.tbl_rap tr td{
+		font-size: 8px;
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.atur_border{
+		border: 1px solid black !important;
+	}

@@ -1,0 +1,32 @@
+.atas {
+	width: "100%";
+	font-family: Arial, Helvetica, sans-serif;
+}
+.atur_tbl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#mytable {
+	/* border: 1; */
+	/* width: "100%"; */
+	border-collapse: collapse;
+	font-size: 12px !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mytable th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid black;
+}
+#mytable td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+/*tfoot{
+	border-top: 1px solid black;
+
+}*/

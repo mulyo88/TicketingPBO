@@ -1,0 +1,47 @@
+#myheader {
+	width: 100%;
+}
+
+.atur_besar_huruf{
+	font-size: 14px;
+	font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+.atur_besar_huruf_lain{
+	font-size: 8px;
+	font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+.atur_besar_huruf_lain_kedua{
+	font-size: 10px;
+	font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+#mytable{
+	padding-top: 10px;
+	font-size: 9px;
+	font-family: "Times New Roman", Times, serif;
+	width: 100%;
+}
+
+/*#mytable th{
+
+}*/
+
+/*#mytable td {
+	 white-space: nowrap; 
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#mytable th {
+	border-bottom: 1px solid black;
+	 white-space: nowrap; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}*/

@@ -1,0 +1,1 @@
+ALTER TABLE RAP ADD  LedgerNo BigInt identity

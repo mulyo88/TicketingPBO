@@ -1,0 +1,70 @@
+.ukuran{
+	font-size: 8px !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.utk_P{
+	font-size: 8px !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: red;
+	text-decoration: underline;
+}
+
+.ukuran_delapan{
+	font-size: 8px !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+}
+
+.border_bawah_tampil{
+	border-bottom: 1px solid;
+}
+.padding_atas{
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+.padding_kiri{
+	padding-left: 10px !important;
+}
+.untuk_tipe_form{
+	font-size: 10px !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.untuk_teks_pd{
+	font-size: 11px !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.untuk_border_bottom{
+	border-top: 1px solid !important;
+	border-bottom: 1px solid !important;
+}
+.untuk_border_bottom_saja{
+	border-bottom: 1px solid !important;
+}
+
+#tbl_saya{
+	width: 100%;
+	font-size: 9px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+#tbl_saya thead tr th{
+	/*color:white;*/
+	/*background-color:#e74c3c;*/
+	
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	text-align: center;
+
+
+}
+
+#tbl_saya tbody tr td{
+	font-size: 9px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+

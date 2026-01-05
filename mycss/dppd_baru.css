@@ -1,0 +1,82 @@
+/*body{
+	font-size: 10px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+*/
+#tbl_atas{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+
+}
+#tableKaki{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+
+}
+
+#tbl_atas_lainnya{
+	font-size: 10px;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+	/*page-break-inside: avoid*/
+
+}
+
+#tbl_saya{
+	width: 100%;
+	font-size: 8px;
+	/*border: 1px solid black;*/
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+#tbl_saya thead tr th{
+	color:white;
+	background-color:#e74c3c;
+	/*font-size: 10px;*/
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}
+#tbl_saya tbody tr td{
+	/*font-size: 10px;*/
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}
+
+.ukuran{
+		font-size: 10px !important;
+		font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+		/*white-space: nowrap;*/
+	}
+
+	.buat_nowrap{
+		white-space: nowrap;
+	}
+	.jarak_atas_bawah{
+		padding-top: 7px !important;
+		padding-bottom: 7px !important;
+	}
+
+	.jarak_atas_bawah_td{
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+/*
+.atur{
+	width: 100%;
+	border: 1px solid black;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+.ukuran{
+	font-size: 10px;
+}
+*/

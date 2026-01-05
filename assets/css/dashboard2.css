@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,96.6,200..1000;1,6..12,96.6,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #E81179;
+    --color-primary-hover: #b1095a;
+    --color-bg: #F6F9FF;
+    --color-text: #474747;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(235, 245, 236, 0.89);
+}
+
+.navbar-cont {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-cont .company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-cont .company ion-icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar .navbar-cont .company p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar .navbar-cont .sign-out-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-cont .sign-out-cont p {
+    display: none;
+}
+
+.navbar .navbar-cont .sign-out-cont ion-icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+.content {
+    padding: 10px 10px;
+    width: 100%;
+    height: 70%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* margin-bottom: 20px; */
+}
+
+
+footer {
+    height: 20%;
+    bottom: 20px;
+}

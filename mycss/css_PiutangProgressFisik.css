@@ -1,0 +1,37 @@
+#table_QHutangKO{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+#table_QHutangKO thead tr th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	/*white-space: nowrap;*/
+	border-bottom : 1px solid black;
+
+}
+
+#table_QHutangKO tbody tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	/*white-space: nowrap;*/
+
+}
+
+#table_QHutangKO tfoot tr th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	border-top : 1px solid black;
+	/*white-space: nowrap;*/
+
+}
+
+#tableKaki{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	white-space: nowrap;
+}

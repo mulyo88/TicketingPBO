@@ -1,0 +1,72 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Payload_Acquirer_model extends CI_Model
+{
+    protected $table = 'tnc_inven_m_payload_acquirer';
+    protected $primaryKey = 'payment_gate_id, payload_id';
+
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    public function get_all()
+    {
+        return $this->db->get($this->table)->result();
+    }
+
+    public function get_by_id($payment_gate_id)
+    {
+        return $this->db->where('payment_gate_id', $payment_gate_id)
+                        ->get($this->table)
+                        ->row();
+    }
+
+    public function insert($data)
+    {
+        return $this->db->insert($this->table, $data);
+    }
+
+    public function update($payment_gate_id, $data)
+    {
+        return $this->db->where('payment_gate_id', $payment_gate_id)
+                        ->update($this->table, $data);
+    }
+
+    public function delete($payment_gate_id)
+    {
+        return $this->db->where('payment_gate_id', $payment_gate_id)
+                        ->delete($this->table);
+    }
+
+    public function check_exist($payment_gate_id)
+    {
+        return $this->db->where('payment_gate_id', $payment_gate_id)
+                        ->get($this->table)
+                        ->row();
+    }
+
+    public function check_exist_without_id($payment_gate_id_x, $payment_gate_id)
+    {
+        if ($payment_gate_id_x == $payment_gate_id) {
+            return null;
+        } else  {
+            return $this->db->where('payment_gate_id', $payment_gate_id)
+            ->get($this->table)
+            ->row();
+        }
+    }
+
+    // belongsTo
+    public function payment_gate_name($id) {
+        $this->load->model('common_code_model');
+        return $this->Common_Code_model->find($id);
+    }
+
+    // belongsTo
+    public function payload_type($id) {
+        $this->load->model('common_code_model');
+        return $this->Common_Code_model->find($id);
+    }
+}

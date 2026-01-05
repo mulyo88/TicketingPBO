@@ -1,0 +1,36 @@
+/*body{
+	font-size: 10px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+*/
+#tbl_atas{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+
+}
+
+#tbl_atas_lainnya{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*padding-top: 5px !important;*/
+	/*padding-bottom: 5px !important;*/
+	/*page-break-inside: avoid*/
+
+}
+
+#rekap_tbl tr th{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}
+#rekap_tbl tr td{
+	font-size: 8px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+}

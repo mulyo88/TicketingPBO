@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,96.6,200..1000;1,6..12,96.6,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* --color-primary: #E81179; */
+    --color-primary: #1881d1;
+    /* --color-primary: rgb(19, 27, 180); */
+    --color-primary-hover: #054d84;
+    --color-bg: #F6F9FF;
+    --color-text: #474747;
+}
+
+.container2 {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('../image/logo/Foto-Berita120.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    backdrop-filter: blur(50%);
+    align-items: center;
+    justify-content: center;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Warna hitam dengan transparansi 50% */
+    z-index: 1;
+}
+
+.container>* {
+    position: relative;
+    z-index: 2;
+}
+
+.flash-message {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f23b3b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    animation: flash 0.3s ease-in-out;
+}
+
+.card {
+    /* width: 40%; */
+    height: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 40px 2px rgba(196, 194, 194, 0.586);
+}
+
+.card .left {
+    width: 50%;
+    height: 100%;
+}
+
+.card .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card .right {
+    width: 50%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.card .right .logo .small-logo {
+    width: 40px;
+    height: 100px;
+}
+
+.card .right .logo .small-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .right h1 {
+    font-size: 2em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--color-primary);
+    margin-bottom: -10px;
+}
+
+
+.card .right p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-text);
+    font-size: 14px;
+}
+
+
+.card .inp-outer {
+    margin-top: 30px;
+}
+
+.card .input-grup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card .input-grup label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.card .input-grup input {
+    height: 3em;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .input-grup input:focus {
+    border: 2px solid var(--color-primary);
+    outline: none;
+}
+
+.card .input-grup button {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 2em;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card .input-grup button:hover {
+    background-color: var(--color-primary-hover);
+    color: #fff;
+    cursor: pointer;
+}
+
+.inp-outer p {
+    text-align: start;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 572px) {
+    .container {
+        display: none;
+    }
+
+    .container2 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container2 .content {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+
+    .container2 .top {
+        height: 50%;
+        width: 100%;
+        background-image: url('../image/logo/sosoro1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container2 .top::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .container2 .top>* {
+        position: relative;
+        z-index: 2;
+    }
+
+    .container2 .top .contImg {
+        width: 50px;
+        height: 120px;
+    }
+
+    .container2 .top img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container2 .top h1 {
+        color: #fff;
+        font-size: 2.5em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container2 .bottom {
+        height: 50%;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .container2 .bottom .card2 {
+        padding: 20px;
+        height: 100%;
+        transform: translateY(-20%);
+        border-radius: 20px;
+        background-color: #fff;
+    }
+
+    .container2 .bottom .card2 h2 {
+        font-weight: bold;
+    }
+
+    .container2 .bottom .card2 .msg {
+        margin-top: -10px;
+        font-size: 11px;
+    }
+
+    .container2 .bottom .card2 .input-grup {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .container2 .bottom .card2 .input-grup label {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .container2 .bottom .card2 .input-grup input {
+        height: 3em;
+        border: 1px solid var(--color-primary-hover);
+        border-radius: 8px;
+        padding: 0 10px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .container2 .bottom .card2 .input-grup button {
+        outline: none;
+        border: none;
+        width: 100%;
+        height: 3em;
+        border-radius: 8px;
+        margin-top: 10px;
+        background-color: var(--color-primary);
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
+@media (min-width: 720px) {
+    .container2 {
+        display: none;
+    }
+
+    .container .card {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container2 {
+        display: none;
+    }
+
+    .container .card {
+        width: 50%;
+    }
+}
+
+
+
+@keyframes flash {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,16 @@
+
+
+.huruf_16{
+		font-size: 14px !important;
+		font-weight: bold;
+		font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	}
+	.huruf_14{
+		font-size: 12px !important;
+		font-weight: bold;
+		font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	}
+	.huruf{
+		font-size: 10px !important;
+		font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	}

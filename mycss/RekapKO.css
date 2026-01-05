@@ -1,0 +1,31 @@
+.huruf{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.font_10{
+	font-size: 10px !important;
+	
+}
+.font_11{
+	font-size: 11px !important;
+	
+}
+.font_12{
+	font-size: 12px !important;
+	
+}
+
+#tbl_atas thead tr th{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom:1px solid;
+}
+
+#tbl_atas tbody tr td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#tableKaki{
+	font-size: 8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}

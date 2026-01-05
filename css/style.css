@@ -1,0 +1,9 @@
+.table thead {
+    background-color: #eeecec;
+    /* border: none; */
+}
+
+.table thead tr select {
+    width: 100%;
+    background: red;
+}
